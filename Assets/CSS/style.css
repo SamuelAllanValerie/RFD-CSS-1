@@ -1,14 +1,55 @@
+/* @import url(reset.css)*/
+
+
+body {
+  font-size: 16px;
+  font-family: Arial, Verdana, sans-serif;
+}
+
 h1 {
   color: red;
   background-color: black;
+  font-size: 50px;
 }
 
-h2{
+h2 {
   color: green;
+  background-color: yellow;
+  font-size: 50px;
+}
+
+.deTravers {
+  font-style: italic;
+}
+.barre {
+  text-decoration:line-through;
+}
+
+p {
+  color: blue;
+  background-color: red;
+  font-size: 50px;
+}
+
+ul li {
+  color: red;
+}
+
+ul li ul li {
+  color:green;
+}
+
+p#un {
   background-color: yellow;
 }
 
-p{
-  color: blue;
-  background-color: red;
+p#deux {
+  background-color: green;
+  text-decoration: none;
+}
+
+p#trois{background-color: purple;
+}
+
+p#quatre{background-color: grey;
 }
